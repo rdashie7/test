@@ -232,3 +232,9 @@ header .lng {
     left: 34px; }
   header .panel__buttons {
     margin-left: 145px; } }
+
+@media (max-width: 1180px) {
+  header .panel__buttons {
+    margin-left: 150px; }
+    header .panel__buttons-component {
+      margin-right: 0; } }
