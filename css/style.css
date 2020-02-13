@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserratreg'; }
+
+button {
+  outline: none;
+  border: none; }
+
+header .panel {
+  background: #001F41;
+  position: relative; }
+  header .panel__logo {
+    background: #001F41;
+    position: absolute;
+    left: 135px; }
+  header .panel__buttons, header .panel__order {
+    display: inline-block; }
+  header .panel__buttons {
+    margin-left: 400px; }
+    header .panel__buttons-component {
+      margin-right: 50px;
+      padding: 16px 20px 14px 20px;
+      border-bottom: 3px solid transparent;
+      background: #001F41;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 17px;
+      color: #FFFFFF; }
+      header .panel__buttons-component:hover {
+        border-bottom: 3px solid #1EC8D2; }
+    header .panel__buttons .contacts-component {
+      margin-right: 0; }
+  header .panel__order {
+    position: absolute;
+    right: 34px;
+    top: 9px; }
+    header .panel__order button {
+      padding: 5px 50px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: #000000;
+      background: #14C8D2;
+      border-radius: 20px; }
+
+header .lng {
+  position: absolute;
+  top: 70px;
+  right: 34px; }
+  header .lng button {
+    padding: 10px 21px;
+    background: #F1F1F2;
+    border: 1px solid #E7E7E7;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #132230; }
+    header .lng button span {
+      margin-right: 6px; }
+
+@media (max-width: 1870px) {
+  header .panel__buttons {
+    margin-left: 380px; } }
+
+@media (max-width: 1820px) {
+  header .panel__buttons {
+    margin-left: 360px; } }
+
+@media (max-width: 1770px) {
+  header .panel__buttons {
+    margin-left: 340px; } }
+
+@media (max-width: 1750px) {
+  header .panel__buttons {
+    margin-left: 330px; } }
+
+@media (max-width: 1730px) {
+  header .panel__buttons {
+    margin-left: 325px; } }
+
+@media (max-width: 1720px) {
+  header .panel__buttons {
+    margin-left: 320px; } }
+
+@media (max-width: 1700px) {
+  header .panel__buttons {
+    margin-left: 315px; } }
+
+@media (max-width: 1680px) {
+  header .panel__buttons {
+    margin-left: 300px; } }
+
+@media (max-width: 1670px) {
+  header .panel__buttons {
+    margin-left: 310px; }
+    header .panel__buttons-component {
+      margin-right: 45px; } }
+
+@media (max-width: 1650px) {
+  header .panel__buttons {
+    margin-left: 300px; } }
+
+@media (max-width: 1640px) {
+  header .panel__buttons {
+    margin-left: 300px; } }
+
+@media (max-width: 1620px) {
+  header .panel__buttons {
+    margin-left: 290px; }
+    header .panel__buttons-component {
+      margin-right: 40px; } }
+
+@media (max-width: 1590px) {
+  header .panel__buttons-component {
+    margin-right: 35px; } }
+
+@media (max-width: 1560px) {
+  header .panel__buttons {
+    margin-left: 270px; } }
+
+@media (max-width: 1520px) {
+  header .panel__logo {
+    left: 125px; }
+  header .panel__buttons {
+    margin-left: 265px; }
+    header .panel__buttons-component {
+      margin-right: 30px; } }
+
+@media (max-width: 1500px) {
+  header .panel__buttons {
+    margin-left: 255px; } }
+
+@media (max-width: 1470px) {
+  header .panel__buttons {
+    margin-left: 245px; } }
+
+@media (max-width: 1450px) {
+  header .panel__logo {
+    left: 110px; }
+  header .panel__buttons-component {
+    margin-right: 20px; } }
+
+@media (max-width: 1410px) {
+  header .panel__buttons {
+    margin-left: 235px; } }
+
+@media (max-width: 1390px) {
+  header .panel__logo {
+    left: 100px; }
+  header .panel__buttons {
+    margin-left: 225px; } }
+
+@media (max-width: 1370px) {
+  header .panel__buttons {
+    margin-left: 215px; } }
+
+@media (max-width: 1350px) {
+  header .panel__logo {
+    left: 90px; }
+  header .panel__buttons {
+    margin-left: 200px; } }
+
+@media (max-width: 1330px) {
+  header .panel__logo {
+    left: 85px; }
+  header .panel__buttons-component {
+    margin-right: 15px; } }
+
+@media (max-width: 1310px) {
+  header .panel__buttons {
+    margin-left: 205px; }
+    header .panel__buttons-component {
+      margin-right: 10px; } }
+
+@media (max-width: 1290px) {
+  header .panel__buttons {
+    margin-left: 210px; }
+    header .panel__buttons-component {
+      margin-right: 5px; } }
+
+@media (max-width: 1270px) {
+  header .panel__logo {
+    left: 75px; }
+  header .panel__buttons {
+    margin-left: 200px; } }
+
+@media (max-width: 1250px) {
+  header .panel__logo {
+    left: 65px; }
+  header .panel__buttons {
+    margin-left: 185px; } }
+
+@media (max-width: 1240px) {
+  header .panel__logo {
+    left: 60px; }
+  header .panel__buttons {
+    margin-left: 180px; } }
+
+@media (max-width: 1230px) {
+  header .panel__logo {
+    left: 55px; }
+  header .panel__buttons {
+    margin-left: 175px; } }
+
+@media (max-width: 1220px) {
+  header .panel__logo {
+    left: 50px; }
+  header .panel__buttons {
+    margin-left: 165px; } }
+
+@media (max-width: 1210px) {
+  header .panel__logo {
+    left: 45px; }
+  header .panel__buttons {
+    margin-left: 155px; } }
+
+@media (max-width: 1200px) {
+  header .panel__logo {
+    left: 40px; }
+  header .panel__buttons {
+    margin-left: 150px; } }
+
+@media (max-width: 1190px) {
+  header .panel__logo {
+    left: 34px; }
+  header .panel__buttons {
+    margin-left: 145px; } }
